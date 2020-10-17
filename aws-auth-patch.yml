@@ -10,6 +10,8 @@ data:
       - system:masters
       rolearn: arn:aws:iam::861088354544:role/UdacityFlaskDeployCBKubectlRole
       username: build
+      groups:
+      - system:masters
   mapUsers: |
     []
 kind: ConfigMap
